@@ -1,0 +1,73 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+# !.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+package-lock.json
+
+# Coverage File
+coverage/login/src
+coverage/login/*.css
+coverage/login/*.js
+coverage/login/*.html
+coverage/login/*.png
+
+coverage/user/src
+coverage/user/*.css
+coverage/user/*.js
+coverage/user/*.html
+coverage/user/*.png
+
+coverage/wec/src
+coverage/wec/*.css
+coverage/wec/*.js
+coverage/wec/*.html
+coverage/wec/*.png
+
+coverage/merchant/src
+coverage/merchant/*.css
+coverage/merchant/*.js
+coverage/merchant/*.html
+coverage/merchant/*.png
+
+documentation
+.angular/cache
